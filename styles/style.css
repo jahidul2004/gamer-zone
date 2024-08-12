@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Work Sans;
+}
+body {
+    width: 100%;
+}
+/* Header section style start from here */
+header {
+    width: 80%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+header .logo .g-sty {
+    color: #ff42a5;
+}
+header .logo img {
+    width: 80px;
+    height: 40px;
+    margin-right: 20px;
+}
+header .logo h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul .follow-us-header {
+    display: flex;
+    border-radius: 8px;
+    background: #0b02231a;
+    padding: 16px 24px;
+}
+header ul .follow-us-header img {
+    width: 20px;
+    height: 18px;
+    margin: 0 5px;
+}
+header ul li {
+    margin: 20px;
+    color: #3c354f;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 16px 0;
+}
+header .menu-icon {
+    width: 40px;
+    height: 40px;
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        width: 90%;
+        padding: 10px;
+    }
+    header ul {
+        display: none;
+    }
+    header .menu-icon {
+        display: inline;
+        width: 30px;
+        height: 30px;
+    }
+    header .logo h1 {
+        font-size: 2rem;
+    }
+    header .logo img {
+        width: 45px;
+        height: 25px;
+        margin-right: 10px;
+    }
+}
+/* Header section styles end here */
