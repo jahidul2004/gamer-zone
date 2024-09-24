@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
     <head>
+        <!-- Daisy UI Linking -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Daisy UI Linking -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gamer | Zone</title>
@@ -23,8 +31,22 @@
                     />
                 </li>
             </ul>
-            <img class="menu-icon" src="icons/bars-solid.svg" alt="Menu Icon" />
+            <img
+                id="menu"
+                class="menu-icon"
+                src="icons/bars-solid.svg"
+                alt="Menu Icon"
+            />
         </header>
+        <div id="toggle-bar" class="hidden md:hidden lg:hidden flex-col gap-2">
+            <a class="btn" href="#">About Us</a>
+            <a class="btn" href="#">Developers</a>
+            <a class="btn" href="#">Follow us on</a>
+        </div>
         <!-- Header section end here -->
+
+        <!-- Js Linking -->
+        <script src="js/script.js"></script>
+        <!-- Js Linking -->
     </body>
 </html>
