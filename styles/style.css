@@ -8,6 +8,15 @@
 body {
     width: 100%;
 }
+
+/* Common style start */
+.primary-back {
+    background-color: #ff42a5;
+}
+.secondary-back {
+    background-color: #4ec5f7;
+}
+/* Common style end */
 /* Header section style start from here */
 header {
     width: 80%;

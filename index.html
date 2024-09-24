@@ -9,6 +9,13 @@
         />
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- Daisy UI Linking -->
+
+        <!-- Font awesome linking -->
+        <script
+            src="https://kit.fontawesome.com/25d4ab8dca.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Font awesome linking -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gamer | Zone</title>
@@ -16,7 +23,7 @@
     </head>
     <body>
         <!-- Header section start from here -->
-        <header>
+        <header class="w-[90%] md:container lg:container m-auto">
             <div class="logo">
                 <img src="images/logo.png" alt="Logo" />
                 <h1><span class="g-sty">G</span>amer</h1>
@@ -44,6 +51,59 @@
             <a class="btn" href="#">Follow us on</a>
         </div>
         <!-- Header section end here -->
+
+        <!-- Banner section start from here -->
+        <section
+            class="flex flex-col-reverse lg:flex-row md:flex-row gap-5 w-[90%] md:container lg:container m-auto md:justify-center lg:justify-center md:items-center lg:items-center"
+        >
+            <!-- Content div -->
+            <div class="md:w-1/2 lg:w-1/2">
+                <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold">
+                    PLAY LIKE THE
+                </h2>
+                <h1
+                    class="text-6xl md:text-7xl lg:text-9xl font-extrabold text-[#F948B2FF] my-3"
+                >
+                    G.O.A.T.
+                </h1>
+                <p>
+                    <i
+                        class="fa-regular fa-circle-play text-[#F948B2FF] pr-2"
+                    ></i
+                    >1-click instant play
+                </p>
+                <p>
+                    <i
+                        class="fa-regular fa-circle-down text-[#F948B2FF] pr-2 my-2"
+                    ></i
+                    >no download
+                </p>
+                <p>
+                    <i class="fa-solid fa-users text-[#F948B2FF] pr-2"></i>1000s
+                    of supported online game
+                </p>
+                <!-- Button div -->
+                <div class="mt-5">
+                    <button
+                        class="btn primary-back text-white rounded-full px-8"
+                    >
+                        Sign In
+                    </button>
+                    <button
+                        class="btn secondary-back text-white rounded-full px-6"
+                    >
+                        Go Rouge
+                    </button>
+                </div>
+            </div>
+            <!-- Content div end -->
+            <!-- Image div -->
+            <div class="md:w-1/2 lg:w-1/2">
+                <img src="images/banner.png" />
+            </div>
+            <!-- Image div end -->
+        </section>
+        <!-- Banner section end here -->
 
         <!-- Js Linking -->
         <script src="js/script.js"></script>
