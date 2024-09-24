@@ -23,44 +23,46 @@
     </head>
     <body>
         <!-- Header section start from here -->
-        <header
-            class="sticky top-0 bg-white w-[90%] md:container lg:container m-auto"
-        >
-            <div class="logo">
-                <img src="images/logo.png" alt="Logo" />
-                <h1><span class="g-sty">G</span>amer</h1>
-            </div>
-            <ul>
-                <li>
-                    <a
-                        target="_blank"
-                        href="https://www.facebook.com/profile.php?id=100082395128842&mibextid=ZbWKwL"
-                        >About Us</a
-                    >
-                </li>
-                <li>
-                    <a target="_blank" href="https://github.com/jahidul2004"
-                        >Developer</a
-                    >
-                </li>
-                <li class="follow-us-header">
-                    <a
-                        target="_blank"
-                        href="https://www.instagram.com/islam.jahidul.jihad?igsh=NDl5cXowY28xc2ps"
-                        >Folow Us</a
-                    >
-                    <img src="icons/youtube-brands-solid.svg" /><img
-                        src="icons/tiktok-brands-solid.svg"
-                    />
-                </li>
-            </ul>
-            <img
-                id="menu"
-                class="menu-icon"
-                src="icons/bars-solid.svg"
-                alt="Menu Icon"
-            />
-        </header>
+        <div class="sticky top-0 bg-white">
+            <header
+                class="sticky top-0 bg-white w-[90%] md:container lg:container m-auto"
+            >
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo" />
+                    <h1><span class="g-sty">G</span>amer</h1>
+                </div>
+                <ul>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.facebook.com/profile.php?id=100082395128842&mibextid=ZbWKwL"
+                            >About Us</a
+                        >
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/jahidul2004"
+                            >Developer</a
+                        >
+                    </li>
+                    <li class="follow-us-header">
+                        <a
+                            target="_blank"
+                            href="https://www.instagram.com/islam.jahidul.jihad?igsh=NDl5cXowY28xc2ps"
+                            >Folow Us</a
+                        >
+                        <img src="icons/youtube-brands-solid.svg" /><img
+                            src="icons/tiktok-brands-solid.svg"
+                        />
+                    </li>
+                </ul>
+                <img
+                    id="menu"
+                    class="menu-icon"
+                    src="icons/bars-solid.svg"
+                    alt="Menu Icon"
+                />
+            </header>
+        </div>
         <div id="toggle-bar" class="hidden md:hidden lg:hidden flex-col gap-2">
             <a
                 class="btn"
@@ -263,6 +265,46 @@
             <!-- Online game section end here -->
         </main>
         <!-- Main section end here -->
+
+        <!-- Career section start from here -->
+        <section
+            class="flex flex-col-reverse md:flex-row lg:flex-row primary-back md:items-center lg:items-center"
+        >
+            <!-- Career Content -->
+            <div class="w-full md:w-1/2 lg:w-1/2 p-5 md:p-10 lg;p-10">
+                <h1 class="text-4xl text-white font-bold my-3">Career</h1>
+                <p class="text-white">
+                    Gamer is driven to create the best and most fun games for
+                    our millions of players all around the world, and we,re
+                    always on the lookout for more top talent to join our
+                    growing team. If you,d like to help us make great games and
+                    be a part of Gamers bright future, we,d love to hear from
+                    you.
+                </p>
+
+                <!-- Career list -->
+                <div class="my-5 leading-8 text-white">
+                    <p>Multimedia Artist | Lisbon,Portugal</p>
+                    <p>Data Engineer | Newyork,America</p>
+                    <p>Adroid Engineer | Toronto,Canada</p>
+                    <p>Server Developer | Sydney,Australia</p>
+                    <p>Group Financial Accountant | Dhaka Bangladesh</p>
+                    <p>Senior User Acuisition Specialist | Moscow,Russia</p>
+                </div>
+                <!-- Career list end -->
+                <button class="btn rounded-full bg white text-[#F948B2FF]">
+                    See All Position
+                </button>
+            </div>
+            <!-- Career Content end -->
+
+            <!-- Image content -->
+            <div class="w-full md:w-1/2 lg:w-1/2">
+                <img src="images/career.png" alt="" />
+            </div>
+            <!-- Image content end -->
+        </section>
+        <!-- Career section end here -->
 
         <!-- Js Linking -->
         <script src="js/script.js"></script>
